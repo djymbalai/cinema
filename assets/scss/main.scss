@@ -1,0 +1,21 @@
+body {
+  min-width: 320px;
+}
+.header {
+  z-index: 9!important;
+  .v-toolbar__content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.def-container {
+  max-width: 1440px!important;
+}
+.v-breadcrumbs {
+  a {
+    transition: opacity 250ms ease;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
